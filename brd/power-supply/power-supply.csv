@@ -1,34 +1,47 @@
-Okness,Quantity,Value,Reference
-,,,
-v,1x,R 220R,R10
-v,1x,R 330R,R3
-v,1x,R 390R,R4
-v,1x,R 1k,R5
-v,2x,R 1k 1W,R8-R9
-v,2x,"R 1k8 0,5W",R1-R2
-v,1x,R 2k2,R7
-v,1x,R 3k3,R6
-v,5x,C 10nF,C1;C4-C5;C18-C19
-v,2x,C 100nF,C14-C15
-v,5x,"C 4,7uF",C2;C12-C13;C16-C17
-v,2x,C 22uF,C8-C9
-v,1x,C 1000uF 63v,C3;C6-C7;C10-C11
-v,4x,C 1000uF,C6-C7;C10-C11
-v,1x,1N4007,D5
-v,2x,LED RED,D1-D2
-v,1x,LED GREEN,D4
-v,1x,BR101,D3
-v,1x,BC517,Q1
-v,1x,LM78M05,U1
-v,2x,LM1084-ADJ,U2-U3
-v,1x,LM7815,U4
-v,1x,LM7915,U5
-v,2x,"FUSE 6,3A",F1-F2
-v,1x,TRAFO 2x15V 100VA,T1
-v,1x,SWITCH SPST,SW1
-v,1x,RTE24005,K1
-v,1x,IEC C13,J1
-v,1x,CONTROL,J4
-v,1x,POWER OUTPUT,J3
-,1x,PE,J2
-v,4x,HEATSINK,HS1-HS4
+"Source:","/home/kwendenarmo/git-repos/local/synusia/freecanvas/brd/power-supply/power-supply.sch"
+"Date:","mar 18 ago 2015 19:39:24 CEST"
+"Tool:","Eeschema 0.201508110901+6083~28~ubuntu14.04.1-product"
+"Generator:","/usr/share/doc/kicad/scripts/bom-in-python/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","68"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"C3, ","1","1000uF","CP","Capacitors_ThroughHole:C_Radial_D16_L25_P7.5","Polarised capacitor","647-UVZ1J102MHD"
+"C4, C18, C19, C1, C5, ","5","10nF","C","Capacitors_ThroughHole:C_Disc_D3_P2.5","Unpolarized capacitor","594-K103K15X7RF5UL2"
+"C6, C10, C7, C11, ","4","1000uF","CP","Capacitors_ThroughHole:C_Radial_D12.5_L25_P5","Polarised capacitor","647-UVR1V102MHD1TO"
+"C8, C9, ","2","22uF","CP","Capacitors_ThroughHole:C_Radial_D5_L11_P2","Polarised capacitor","647-UVK1H220MDD"
+"C12, C13, C16, C17, C2, ","5","4.7uF","CP","Capacitors_ThroughHole:C_Radial_D5_L11_P2","Polarised capacitor","140-RGA4R7M1HBK0511G"
+"C14, C15, C20, ","3","100nF","C","Capacitors_ThroughHole:C_Disc_D3_P2.5","Unpolarized capacitor","594-K104K15X7RF5UH5"
+"D1, D2, D6, ","3","RED","LED-RESCUE-power-supply","LEDs:LED-5MM","","696-SLX-LX5093ID"
+"D3, ","1","BR101","Diode_Bridge","asrdi-diode:BR-10","Diode bridge","583-BR101"
+"D4, ","1","GREEN","LED-RESCUE-power-supply","LEDs:LED-5MM","","696-SLX-LX5093GD"
+"D5, ","1","1N4007","D","Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10","Diode","583-1N4007-T"
+"F1, F2, ","2","6.3A","FUSE","asrdi-fuse:Fuseholder5x20-littelfuse646","","576-64600001223"
+"HS3, HS4, HS1, HS2, ","4","HEATSINK","HEATSINK","asrdi-heatsink:RA-T2X-xxE","","588-RA-T2X-51E"
+"J1, ","1","IEC C13","CONN_01X03","asrdi-conn:703W-0053","","562-703W-00/53"
+"J2, ","1","PE","CONN_01X01","Divers:douille_4mm","",""
+"J3, ","1","MAIN OUT","CONN_01X04","asrdi-conn:39880-0304","","538-39880-0304"
+"J4, ","1","CONTROL","CONN_01X03","asrdi-conn:39880-0303","","538-39880-0303"
+"J6, J5, ","2","FAN","CONN_01X03","Socket_Strips:Socket_Strip_Straight_1x03","","538-22-23-2031"
+"J7, ","1","DUAL OUT","CONN_01X03","asrdi-conn:39880-0303","","538-39880-0303"
+"K1, ","1","RTE24005","RTE24xxx","Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm","","655-RTE24005"
+"Q2, Q1, ","2","BC547","BC547","Housings_TO-92:TO-92_Inline_Wide","45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92","512-BC547BTA"
+"Q3, ","1","BC517","BC517","Housings_TO-92:TO-92_Inline_Wide","30V Vce, 1A Ic, NPN Darlington Transistor, TO-92","512-BC517D74Z"
+"R2, R1, ","2","1k8","R","Resistors_ThroughHole:Resistor_Horizontal_RM15mm","Resistor","293-1.8K-RC"
+"R3, ","1","330R","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-52330R"
+"R4, ","1","390R","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-52390R"
+"R5, ","1","1k","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JB-1K0"
+"R6, ","1","3k3","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-523K3"
+"R7, ","1","2k2","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-522K2"
+"R8, R9, ","2","1k","R","Resistors_ThroughHole:Resistor_Horizontal_RM20mm","Resistor","279-CFR200J1K0"
+"R10, ","1","220R","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-52220R"
+"R11, ","1","47k","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-5247K "
+"R12, ","1","47k NTC","RVAR","Capacitors_ThroughHole:C_Disc_D3_P2.5","","594-NTCLE100E3473HB0"
+"R14, ","1","1k5","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-52-1K5 "
+"R15, R13, ","2","10k","R","Resistors_ThroughHole:Resistor_Horizontal_RM10mm","Resistor","603-CFR-25JR-5210K"
+"RV2, RV1, ","2","10k","POT","Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp","Potentionmetre","652-3266W-1-103LF"
+"SW1, ","1","SWITCH ON","SPST","asrdi-switch:Carling-2M1-SP1-T2-B4-M6RE","Interrupteur simple","691-2M1-SP1-T2B4M6RE"
+"T1, ","1","2x15 100VA","TRANSFO_3","asrdi-trafo:VPT30-3330","","553-VPT30-3330"
+"U1, ","1","LM78M05CT","LM78M05CT","Power_Integrations:TO-220","Positive 0.5A 35V Linear Regulator, Fixed Output 5V, TO-220","863-MC78M05CTG"
+"U2, U3, ","2","LM1084IT-ADJ/NOPB","LM1084IT-ADJ/NOPB","Power_Integrations:TO-220","LM1084IT, 5A 29V Adjustable Linear Regulator, TO-220","511-LD1084V"
+"U4, ","1","LM7815ACT","LM7815ACT","Power_Integrations:TO-220","Positive 1A 35V Linear Regulator, Fixed Output 5V, TO-220","863-MC7815CTG"
+"U5, ","1","LM7915CT","LM7915CT","Power_Integrations:TO-220","Negative 1A 35V Linear Regulator, Fixed Output 5V, TO-220","863-MC7915ACTG"
+"U6, ","1","LM358","LM358","Housings_DIP:DIP-8__300_ELL","Dual Op amp (low power)","512-LM358N"
